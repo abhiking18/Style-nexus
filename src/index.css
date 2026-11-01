@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-editorial: 'Cormorant Garamond', Georgia, serif;
+
+  --color-matte-black: #171717;
+  --color-warm-cream: #F3F0E9;
+  --color-muted-copper: #A97958;
+  --color-copper-light: #C49777;
+  --color-copper-dark: #875C3E;
+  --color-charcoal: #30302E;
+  --color-soft-stone: #D8D0C5;
+  --color-stone-light: #EBE6DF;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #171717;
+  color: #F3F0E9;
+  overflow-x: hidden;
+}
+
+/* Custom Typography Utilities */
+.font-heading {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Luxury hairline borders and subtle backdrop blurs */
+.border-copper-subtle {
+  border-color: rgba(169, 121, 88, 0.25);
+}
+
+.border-cream-subtle {
+  border-color: rgba(243, 240, 233, 0.12);
+}
+
+/* Copper Glow utility */
+.glow-copper {
+  box-shadow: 0 0 45px -10px rgba(169, 121, 88, 0.28);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #171717;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30302E;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A97958;
+}

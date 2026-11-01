@@ -1,0 +1,6 @@
+{
+  "name": "Style Nexus — Premium Hair Studio",
+  "description": "Official website for STYLE NEXUS hair studio in Bamunimaidan, Guwahati, Assam. Contemporary hair styling, cuts, colour, and transformations. Your Hair. Your Identity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
